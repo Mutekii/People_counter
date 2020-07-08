@@ -100,7 +100,7 @@ while 1:
                 if detect[c-1][1] > posL and l[1] < posL:
                     detect.clear()
                     down+=1
-                    total+=1
+                    total-=1
                     cv2.line(frame,xy1,xy2,(0,0,255),5)
                     continue
 
